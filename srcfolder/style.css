@@ -1,0 +1,203 @@
+.header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Imagesfolder/pediatric_speech_therapy.jpg);height: 600px;
+    background-position: 5%;
+}
+
+.Herosection{
+    justify-content:space-between;
+    display: flex;
+    /* justify content works with display flex, direction, wrap and others */
+   
+    /* vh makes the background picture big ( as the full size on the figma file) */
+}
+.foundation{
+    text-align: center;
+    background-color: #B2A0A0;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.logo{
+    width:0px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.nafbar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: rgb(147, 146, 146);
+    padding: 12px;
+}
+
+.nafbar li a{
+text-decoration: none;
+}
+.arrow{
+    display: block;
+    width: 100%;
+    text-align:right;
+    /* margin-top: 350px; */
+}
+
+.arro{
+    display: block;
+    width: 50%;
+    text-align:left;
+    margin-top: 350px;
+}
+
+.thera{
+width: 2px;
+margin: 100px;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+    background-color: #995F5F;
+
+    
+}
+
+.twxt{
+    font-size: 40px;
+}
+
+.head{
+    background-color: #DFD9D9;
+    width: 40%;
+    text-align: center;
+}
+
+.more{
+    background-color:black;
+    width: 40%;
+    background-color: rgb(139, 116, 116);
+    color: black;
+    text-align: center;
+}
+
+.team{
+    /* background-image: url(../Imagesfolder/images\ \(7\).jpeg);height: 600px; */
+}
+
+.meet{
+    background-color: #BBB8B8 ;
+    width: 10%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.hands{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Imagesfolder/images\ \(7\).jpeg);height: 600px;
+    background-position: 5%;
+}
+
+.pics{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.nam{
+    display: flex;
+    /* flex-direction: row;
+    gap: 280px; */
+    justify-content: center;
+    /* margin: 30px; */
+    background-color: #D7D5D5;
+    
+}
+
+.nam p{
+    width: 100px;
+
+}
+
+.pos{
+    display: flex;
+    flex-direction: row;
+    gap: 270px;
+    justify-content: center;
+    margin: 30px ;
+    background-color: #D7D5D5;
+}
+
+/* Ms Elpe's corrections to the coding of the team section in the Homepage with the name and position below*/
+.team-div{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* the p in the class "team-div" sends the styling directly to everything cotained in the paragraph only. Use this ideology to style other elements or ocntainers contained in another div or multiple inner divs */
+.team-div p{
+    background-color: #D7D5D5;
+    text-align: center;
+    padding: 5px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    background-color:#726D6D ;
+}
+
+.instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 17px;
+    /* the color designof the instagram logo */
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-right: 10px;
+}
+
+.socials img{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin-top:50%px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 10px;
+    background-color: #302E2E ;
+    font-size: 36px;
+    color: white;
+}
+
+.foot h4{
+    background-color: #D7D5D5;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    font-size: 50px;
+}
+
+.footterms{
+    margin-left: 80px;
+}
+
+.map{
+    margin-left:20%;
+    font-size: 50px;
+}
