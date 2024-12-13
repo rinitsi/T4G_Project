@@ -1,3 +1,5 @@
+ /* HOME  PAGE */
+
 .header{
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,10 +151,19 @@ margin: 100px;
     padding: 5px;
 }
 
+
+
+
+
+
+
+
+/* FOR THE FOOTER SECTION */
+
 .foot{
-    display: flex;
+    display: flex; /*display flex always moves with flex direction*/
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
     background-color:#726D6D ;
 }
 
@@ -161,43 +172,67 @@ margin: 100px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 17px;
-    /* the color designof the instagram logo */
+    /* the color design of f the instagram logo */
 }
 
 .socials{
+    display: flex; /*arranges the item in a row*/
+    margin: 100px 0px 0px 100px;
     display: flex;
-    flex-direction: row;
-    gap: 100px;
-    margin-right: 10px;
-}
-
-.socials img{
-    display: flex;
-    flex-direction: column;
-    gap: 200px;
-    margin-top:50%px;
-}
-
-.copyright{
-    text-align: center;
-    padding: 10px;
-    background-color: #302E2E ;
-    font-size: 36px;
-    color: white;
-}
-
-.foot h4{
-    background-color: #D7D5D5;
-    text-align: center;
-    padding: 20px 30px 20px 30px;
-    font-size: 50px;
+    flex-direction: column; /*arrange items horizontally*/
+    gap: 50px; 
+    flex-wrap: wrap-reverse;
 }
 
 .footterms{
-    margin-left: 80px;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-size: 40px;
+    /* margin: 0px 0px 0px 200px; */
 }
+
+.footterms h4{
+    background-color: white;
+    font-size:80px;
+}
+
 
 .map{
     margin-left:20%;
-    font-size: 50px;
+    font-size: 60px;
+    color: white;
+}
+
+
+.logofoot{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 20%;
+}
+
+.copyrit{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+
+
+/* CONTACT US */
+
+.logocontact{
+    width:0px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.foundationcontact{
+    text-align: center;
+    background-color: #B2A0A0;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px auto;
 }
