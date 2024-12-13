@@ -7,39 +7,58 @@
     <link rel="stylesheet" href="../srcfolder/style.css">
 </head>
 <body>
+    <header>
+        <div class="header">
+            <div class="foundationcontact"><h1>The Speechel foundation</h1></div>
+            <!-- the speechel foundation at the top middle of each page -->
+        <div class="Herosection">
+            <!-- "class" allows you to style the particular code in css. so class---you give it name in html---then call it out in css ---then style it -->
+            <div class="logocontact">
+                <img src="../Imagesfolder/images.png" alt="">
+            </div>
     
-    <div class="header">
-        <div class="foundationcontact"><h1>The Speechel foundation</h1></div>
-        <!-- the speechel foundation at the top middle of each page -->
-    <div class="Herosection">
-        <!-- "class" allows you to style the particular code in css. so class---you give it name in html---then call it out in css ---then style it -->
-        <div class="logocontact">
-            <img src="../Imagesfolder/images.png" alt="">
+            <nav>
+                <!-- <ul class="nafbar"> -->
+                <ul class="nafbar">
+                    <li><a href="../index.html">Home page</a></li>
+                    <li><a href="../pagesfolder/about.html">About Us</a></li>
+                    <li><a href="../pagesfolder/contact.html">Contact Us</a></li>
+                    <li><a href="../pagesfolder/signup.html">Sign Up</a></li>
+                    <li><a href="../pagesfolder/login.html">Log In</a></li>
+                    <li><a href="../pagesfolder/resource.html">Resource Page</a></li>
+                    <li><a href="../pagesfolder/features.html">Features Page</a></li>
+                    <!-- these is the coding to linking the various pages -->
+                </ul>
+            </nav>
+    
         </div>
-
-        <nav>
-            <!-- <ul class="nafbar"> -->
-            <ul class="nafbar">
-                <li><a href="../index.html">Home page</a></li>
-                <li><a href="../pagesfolder/about.html">About Us</a></li>
-                <li><a href="../pagesfolder/contact.html">Contact Us</a></li>
-                <li><a href="../pagesfolder/signup.html">Sign Up</a></li>
-                <li><a href="../pagesfolder/login.html">Log In</a></li>
-                <li><a href="../pagesfolder/resource.html">Resource Page</a></li>
-                <li><a href="../pagesfolder/features.html">Features Page</a></li>
-                <!-- these is the coding to linking the various pages -->
-            </ul>
-        </nav>
-
-    </div>
+    
+    
+    </header>
 
 
-    <section>
-
-        <h2>Get in touch</h2>
-
-        <form action=""></form>
-
+    <section class="sectioncontact1">
+        <h2 class="getin">Get in touch</h2>
+        
+        <form action="">
+            <div class="formdiv">
+                <div class="namcont">
+                    <label for="Full Name"></label>
+                    <input type="text" Full name required placeholder="Full Name">
+                </div> <br>
+             <!-- this provides the space for the text to be typed and makes it compulsory to be filled, thus the place holder.  -->
+              <!-- br breakes the line for the "Email" to begin on the next line -->
+                <div class="emailcont">
+                    <label for="Email"></label>
+                    <input type="text" Email required placeholder="Email">
+                </div> <br>
+                <div class="urmessage">
+                    <label for="Your message"></label>
+                    <textarea name="message" id="message" rows="15" cols="50" placeholder="Your message here"></textarea>
+                </div>
+            </div>
+        </form>
+    
     </section>
     
 </body>

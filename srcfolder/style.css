@@ -62,9 +62,7 @@ margin: 100px;
 .aboutus{
     display: flex;
     justify-content: space-between;
-    background-color: #995F5F;
-
-    
+    background-color: #995F5F;    
 }
 
 .twxt{
@@ -236,3 +234,31 @@ margin: 100px;
     border-radius: 10px;
     margin: 10px auto;
 }
+
+
+.sectioncontact1{
+    background-image: url(../Imagesfolder/contact-us-image.jpg);
+}
+
+.getin{
+    padding: 10px 30px 10px 30px;
+    background-color: #B99F7D;
+    width: 140px;
+    margin-left: 600px;
+}
+
+.namcont{
+    padding: 10px 30px 10px 30px;
+    margin-left: 100px;
+}
+
+.emailcont{
+    padding: 10px 30px 10px 30px;
+    margin-left: 100px;
+}
+
+.urmessage{
+    padding: 10px 30px 10px 30px;
+    margin-left: 100px;
+}
+    
