@@ -229,7 +229,7 @@ margin: 100px;
 
 .foundationcontact{
     text-align: center;
-    background-color: #B2A0A0;
+    background-color: #866161;
     width: 30%;
     border-radius: 10px;
     margin: 10px auto;
@@ -252,7 +252,7 @@ margin: 100px;
     margin-left: 100px;
 }
 
-.emailcont{
+ .emailcont{
     padding: 10px 30px 10px 30px;
     margin-left: 100px;
 }
@@ -265,8 +265,191 @@ margin: 100px;
 .contactdiv{
     background-color: #B99F7D;
     width: 400px;
-    height: 400px;
-    margin: 0 0 0px 700px;
+    height: 300px;
 }
 
+/* The fles of the two div */
+.touchdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px;
+}
+
+.formdiv, .addressdiv {
+    width: 48%; /* Adjust width for side-by-side appearance */
+}
+
+.formdiv {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.addressdiv {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contactdiv a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contactdiv a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ABOUT US */
+.foundationaboutus{
+    text-align: center;
+    background-color: #f4acac;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px auto;   
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    /* Adds space between the divs */
+    background-color: #DABEA9;
+    /* border-radius: 10px; */
+
+}
+
+.about-section div{
+    flex: 1;
+    /* divs are evenly sized */
+    text-align: center;
+    /* Centers the text */
+}
+
+.about-section img{
+    max-width: 100%;
+    /* It ensures the images fits within its div */
+    height: auto;
+    border-radius: 8px;
+    /* Adds an round edge to the corners of the image */
+}
+
+
+.the-team{
+    display: flex;
+    flex-direction: column;
+    /* arranges the items horizontally */
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-image: url(../Imagesfolder/img1.jpeg);
+    background-position: 5%;
+} 
+
+.the-team h3{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.team-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 20px;
+}
+
+
+.team-section div{
+text-align: center;
+flex: 1;
+}
+
+.team-section img{
+width: 150px;
+/* set a fixed width for all the images */
+height: 150px;
+object-fit: cover;
+/* it crops and nicely centers the images */
+border-radius: 30%;
+/* Makes the image circular */
+}
+
+.team-section p{
+    margin: 5px 0;
+    /* space between the texts elements */
+
+}
+
+.team-section p:last-of-type{
+    font-weight: bold;
+    /* Highlights the name  */
+}
+
+.team-section p:last-of-type{
+    color: gray;
+    /* differentiates the text (position) from the name text  */
+    font-size: 0.9em;
+    /* makes id slightly smaller */
+}
     
+/* SIGN UP */
+.foundationsignup{
+    text-align: center;
+    background-color: #4f4e4e;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+/* LOGIN */
+.foundationlogin{
+    text-align: center;
+    background-color: #6b8066;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px auto;  
+}
+
+/* RESOURCE */
+.foundationresource{
+    text-align: center;
+    background-color: #898161;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px auto;  
+}
+
+/* FEATURES */
+.foundationfeatures{
+    text-align: center;
+    background-color: #866c60;
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px auto;  
+}
