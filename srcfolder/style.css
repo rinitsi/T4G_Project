@@ -417,7 +417,54 @@ border-radius: 30%;
     font-size: 0.9em;
     /* makes id slightly smaller */
 }
-    
+
+/* To style the section and the heading */
+.impact-story{
+    text-align: center;
+    background-color: #E2B2B2;
+}
+
+.impact-story h3{
+    font-size: 2em;
+    background-color: #995F5F;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* To style the impact-stories container */
+.impact-stories{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.story{
+    text-align: center;
+    width: 300px;
+    height: 400px;
+}
+
+.story img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* To move the middle div down */
+.story:nth-child(2){
+    transform: translateY(100px);
+}
+
+
+
+
+
+
+
 /* SIGN UP */
 .foundationsignup{
     text-align: center;
